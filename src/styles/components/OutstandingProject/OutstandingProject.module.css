@@ -1,0 +1,29 @@
+.containerCard {
+  margin: 0.3rem 0;
+}
+
+.link {
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.link:hover {
+  scale: 1.1;
+}
+
+.outstandingProject__image {
+  position: relative;
+}
+
+.deptName {
+  bottom: 0;
+  padding: 0.2rem;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-transform: uppercase;
+  font-size: 9px;
+  height: 30%;
+}

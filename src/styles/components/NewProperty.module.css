@@ -1,0 +1,61 @@
+.card {
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.5s;
+    border: rgb(192, 192, 192) solid 1px;
+}
+
+.card:hover {
+    background-color: #FEF9EA;
+    scale: 1.05;
+}
+
+.card .blob {
+    height: 10px;
+    width: 75%;
+    border-radius: 0 0 30px 30px;
+    margin: 0 auto;
+    visibility: visible;
+    transition: all 0.3s;
+}
+
+.card:hover .blob {
+    background-color: #f97316;
+    transition: all 0.3s;
+}
+
+
+.card .img {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 140px;
+    height: 140px;
+    background-color: #f97316;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    background-size: cover;
+    filter: grayscale(100%)
+}
+
+.card:hover .img {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    z-index: -99999;
+    filter: grayscale(0%);
+    /*     position: absolute;
+    top:0; */
+}
+
+.card .titles {
+    transition: all 0.1s;
+    z-index: -99;
+    line-height: 17px;
+}
