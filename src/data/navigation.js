@@ -34,9 +34,5 @@ export const navigationData = [
     offset: -120,
     duration: 500
   },
-  // {
-  //   id: 6,
-  //   name: 'Detalle propiedad',
-  //   href: '/Propiedades/:id',
-  // }, 
+
 ];
